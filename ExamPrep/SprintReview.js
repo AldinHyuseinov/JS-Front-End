@@ -71,7 +71,7 @@ function calculateSum([numberOfTasks, ...elements]) {
       const tasks = assigneesAndTasks[assigneeAndTasksIndex].tasks;
       const taskIndex = Number(taskInfo[0]);
       const isValid = taskIndex >= 0 && taskIndex < tasks.length;
-      
+
       if (!isValid) {
         console.log("Index is out of range!");
         return;

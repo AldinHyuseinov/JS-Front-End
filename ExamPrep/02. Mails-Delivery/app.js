@@ -46,7 +46,7 @@ function solve() {
 
   function deleteMail(e) {
     e.preventDefault();
-    
+
     const parentLi = e.target.parentElement.parentElement;
     const h4Arr = Array.from(parentLi.querySelectorAll("h4"));
     parentLi.remove();
